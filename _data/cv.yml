@@ -3,95 +3,138 @@
   contents:
     - name: Full Name
       value: Yiming DU
-    # - name: Date of Birth
-    #   value: 14th March 1879
+    - name: Email
+      value: ydu@se.cuhk.edu.hk
+    - name: Website
+      value: https://elvin-yiming-du.github.io/
+    - name: Phone
+      value: (852) 54284864
+    - name: Address
+      value: 615 ERB, CUHK, Shatin, Hong Kong
     - name: Languages
       value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: The Chinese University of Hong Kong, Hong Kong, China
-      year: 1905
+    - title: PhD in Natural Language Processing
+      institution: The Chinese University of Hong Kong, Hong Kong
+      year: 2022 – 2026 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research focus: memory-augmented dialogue systems, long-term memory modeling.
+        - Core courses: NLP, Machine Learning Theory.
+    - title: M.Sc. in Software Development
+      institution: Southeast University, Nanjing, China
+      year: 2019 – 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated Top 10%.
+        - Courses: Machine Learning, Deep Learning, NLP.
+    - title: B.Eng. in Software Engineering
+      institution: Southeast University, Nanjing, China
+      year: 2015 – 2019
+      description:
+        - Graduated Top 30%.
+        - Courses: Data Structure, OS, Algorithm Design.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Researcher
+      institution: CUHK & Huawei Noah’s Ark Lab
+      year: 2022 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built memory-based dialogue system using RAG + FAISS.
+        - Led multi-turn dialogue projects and demos.
+    - title: Visiting Researcher
+      institution: University of Edinburgh
+      year: 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Explored personalized agent memory using parametric/contextual memory.
+    - title: Research Intern
+      institution: SenseTime
+      year: 2024 – 2025
       description:
+        - Created 3T-token CoT dataset.
+        - Applied WISE for model editing on LLaMA.
+    - title: Research Assistant
+      institution: City University of Hong Kong
+      year: 2021 – 2022
+      description:
+        - Developed DNA-BERT-based gene similarity model.
+    - title: Visiting Researcher
+      institution: Imperial College London
+      year: 2021
+      description:
+        - Worked on sentiment classification with BERT and CNN.
+    - title: Intern
+      institution: National Instruments
+      year: 2018 – 2019
+      description:
+        - Refactored compile module for LabVIEW.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Human-like Memory Integration for Dialogue System
+      year: 2023 – 2025
+      description:
+        - Designed LLM-based RAG memory architecture for dialogues.
+    - title: Multi-modal Summarization System
+      year: 2022 – 2024
+      description:
+        - Developed audio-image-text fusion summarizer with LLMs.
+    - title: Dialogue Memory Patent (Huawei)
+      year: 2023 – 2024
+      description:
+        - Co-inventor of memory storage & retrieval system.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Overseas Research Attachment Programme (ORAP), CUHK
+    - year: 2020
       items:
-        - Max Planck Medal
+        - Excellent Scholarship, Southeast University
+    - year: 2020
+      items:
+        - 1st Place, Jiangsu Postgraduate Mathematical Modeling Contest
+    - year: 2018
+      items:
+        - 1st Place, Chinese Undergraduate Computer Design Contest
+        - Meritorious Winner, Mathematical Contest in Modeling (MCM)
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions
+      year: 2025
+      description: arXiv. A comprehensive survey on memory in AI. [link](https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI)
+    - title: Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session TOD
+      year: 2025
+      description: ARR. Novel memory-active policy for task-oriented dialogue. [link](https://arxiv.org/html/2505.20231v1)
+    - title: TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning
+      year: 2025
+      description: ARR. Proposes turn-weighted noise suppression.
+    - title: PerLTQA: A Personal Long-Term Memory Dataset
+      year: 2024
+      description: ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)
+    - title: Sticker Retrieval in Multi-Modal and Multi-Session Dialogue
+      year: 2025
+      description: AAAI. Multi-modal sticker-based reply system. [link](https://ojs.aaai.org/index.php/AAAI/article/view/34720)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Memory in AI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Long-term & parametric memory
+        - Retrieval-augmented generation
+        - Temporal reasoning
+        - Personalization in dialogue systems
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Photography, Travel, Debate, Open-source contribution
