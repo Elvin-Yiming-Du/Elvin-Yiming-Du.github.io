@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ymdu.jpg
   image_circular: true
   more_info: >
     <p>Room 615, ERB</p>
