@@ -3,8 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <a href='https://www.cuhk.edu.hk/'>The Chinese University of Hong Kong</a>. 
-  PhD Candidate. AI, Memory, Reasoning.
+  <a href='mailto:ydu@se.cuhk.edu.hk'>ydu@se.cuhk.edu.hk</a>
 
 profile:
   align: right
@@ -27,6 +26,4 @@ latest_posts:
 
 Hi, I am **Yiming (Elvin) DU**. I am a PhD candidate at the **Chinese University of Hong Kong**, pursuing my PhD in the Department of SEEM at CUHK under the supervision of <a href='https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/'>Professor Kam-Fai Wong</a>. I conduct my research at the <a href='https://www1.se.cuhk.edu.hk/~moelab/'>MoE Key Laboratory of High Confidence Software Technologies (MoE Lab)</a>, which is led by Professor Wong. I am currently a visiting scholar at <a href='https://edinburghnlp.inf.ed.ac.uk/'>EdinburghNLP</a>, working with <a href='https://knowledge-representation.org/j.z.pan/'>Jeff Z. Pan</a>.
 
-My current research focuses on **Memory**, **Data Selection**and **Multi-session Dialogue System**. I am particularly interested in designing memory-enhanced large language models (LLMs), spanning parametric, structured, and unstructured memory mechanisms.
-
-You can learn more via my [CV](/cv/) or check out my recent [publications](/publications/).
+My current research focuses on **Memory**, **Dialogue System** and **Data Selection**. I am particularly interested in memory reasoning, reinforcement learning in Agent Memory and applications in personal assistant.
