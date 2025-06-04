@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  **Email:** <a href='mailto:ydu@se.cuhk.edu.hk'>ydu@se.cuhk.edu.hk</a>
+  Email: <a href='mailto:ydu@se.cuhk.edu.hk'>ydu@se.cuhk.edu.hk</a>
 
 profile:
   align: right
