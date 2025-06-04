@@ -641,3 +641,10 @@ jsonresume:
   - languages
   - interests
   - references
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: redirect
+      redirect_to: "/cv/"
