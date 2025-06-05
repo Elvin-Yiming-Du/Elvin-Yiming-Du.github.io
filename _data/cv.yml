@@ -10,131 +10,131 @@
     - name: Phone
       value: (852) 54284864
     - name: Address
-      value: 615 ERB, CUHK, Shatin, Hong Kong
+      value: "615 ERB, CUHK, Shatin, Hong Kong"  # ✅ 加引号
     - name: Languages
-      value: Chinese, English
+      value: "Chinese, English"  # ✅ 加引号
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Natural Language Processing
-      institution: The Chinese University of Hong Kong, Hong Kong
-      year: 2022 – 2026 (expected)
+    - title: "PhD in Natural Language Processing"
+      institution: "The Chinese University of Hong Kong, Hong Kong"
+      year: "2022 – 2026 (expected)"  # ✅ 加引号
       description:
-        - Research focus: memory-augmented dialogue systems, long-term memory modeling.
-        - Core courses: NLP, Machine Learning Theory.
-    - title: M.Sc. in Software Development
-      institution: Southeast University, Nanjing, China
-      year: 2019 – 2022
+        - "Research focus: memory-augmented dialogue systems, long-term memory modeling."  # ✅ 加引号
+        - "Core courses: NLP, Machine Learning Theory."  # ✅ 加引号
+    - title: "M.Sc. in Software Development"
+      institution: "Southeast University, Nanjing, China"
+      year: "2019 – 2022"
       description:
-        - Graduated Top 10%.
-        - Courses: Machine Learning, Deep Learning, NLP.
-    - title: B.Eng. in Software Engineering
-      institution: Southeast University, Nanjing, China
-      year: 2015 – 2019
+        - "Graduated Top 10%."
+        - "Courses: Machine Learning, Deep Learning, NLP."
+    - title: "B.Eng. in Software Engineering"
+      institution: "Southeast University, Nanjing, China"
+      year: "2015 – 2019"
       description:
-        - Graduated Top 30%.
-        - Courses: Data Structure, OS, Algorithm Design.
+        - "Graduated Top 30%."
+        - "Courses: Data Structure, OS, Algorithm Design."
 
 - title: Experience
   type: time_table
   contents:
-    - title: PhD Researcher
-      institution: CUHK & Huawei Noah’s Ark Lab
-      year: 2022 – Present
+    - title: "PhD Researcher"
+      institution: "CUHK & Huawei Noah’s Ark Lab"
+      year: "2022 – Present"
       description:
-        - Built memory-based dialogue system using RAG + FAISS.
-        - Led multi-turn dialogue projects and demos.
-    - title: Visiting Researcher
-      institution: University of Edinburgh
-      year: 2025 – Present
+        - "Built memory-based dialogue system using RAG + FAISS."
+        - "Led multi-turn dialogue projects and demos."
+    - title: "Visiting Researcher"
+      institution: "University of Edinburgh"
+      year: "2025 – Present"
       description:
-        - Explored personalized agent memory using parametric/contextual memory.
-    - title: Research Intern
-      institution: SenseTime
-      year: 2024 – 2025
+        - "Explored personalized agent memory using parametric/contextual memory."
+    - title: "Research Intern"
+      institution: "SenseTime"
+      year: "2024 – 2025"
       description:
-        - Created 3T-token CoT dataset.
-        - Applied WISE for model editing on LLaMA.
-    - title: Research Assistant
-      institution: City University of Hong Kong
-      year: 2021 – 2022
+        - "Created 3T-token CoT dataset."
+        - "Applied WISE for model editing on LLaMA."
+    - title: "Research Assistant"
+      institution: "City University of Hong Kong"
+      year: "2021 – 2022"
       description:
-        - Developed DNA-BERT-based gene similarity model.
-    - title: Visiting Researcher
-      institution: Imperial College London
-      year: 2021
+        - "Developed DNA-BERT-based gene similarity model."
+    - title: "Visiting Researcher"
+      institution: "Imperial College London"
+      year: "2021"
       description:
-        - Worked on sentiment classification with BERT and CNN.
-    - title: Intern
-      institution: National Instruments
-      year: 2018 – 2019
+        - "Worked on sentiment classification with BERT and CNN."
+    - title: "Intern"
+      institution: "National Instruments"
+      year: "2018 – 2019"
       description:
-        - Refactored compile module for LabVIEW.
+        - "Refactored compile module for LabVIEW."
 
 - title: Projects
   type: time_table
   contents:
-    - title: Human-like Memory Integration for Dialogue System
-      year: 2023 – 2025
+    - title: "Human-like Memory Integration for Dialogue System"
+      year: "2023 – 2025"
       description:
-        - Designed LLM-based RAG memory architecture for dialogues.
-    - title: Multi-modal Summarization System
-      year: 2022 – 2024
+        - "Designed LLM-based RAG memory architecture for dialogues."
+    - title: "Multi-modal Summarization System"
+      year: "2022 – 2024"
       description:
-        - Developed audio-image-text fusion summarizer with LLMs.
-    - title: Dialogue Memory Patent (Huawei)
-      year: 2023 – 2024
+        - "Developed audio-image-text fusion summarizer with LLMs."
+    - title: "Dialogue Memory Patent (Huawei)"
+      year: "2023 – 2024"
       description:
-        - Co-inventor of memory storage & retrieval system.
+        - "Co-inventor of memory storage & retrieval system."
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
       items:
-        - Overseas Research Attachment Programme (ORAP), CUHK
+        - "Overseas Research Attachment Programme (ORAP), CUHK"
     - year: 2020
       items:
-        - Excellent Scholarship, Southeast University
+        - "Excellent Scholarship, Southeast University"
     - year: 2020
       items:
-        - 1st Place, Jiangsu Postgraduate Mathematical Modeling Contest
+        - "1st Place, Jiangsu Postgraduate Mathematical Modeling Contest"
     - year: 2018
       items:
-        - 1st Place, Chinese Undergraduate Computer Design Contest
-        - Meritorious Winner, Mathematical Contest in Modeling (MCM)
+        - "1st Place, Chinese Undergraduate Computer Design Contest"
+        - "Meritorious Winner, Mathematical Contest in Modeling (MCM)"
 
 - title: Publications
   type: time_table
   contents:
-    - title: Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions
+    - title: "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions"
       year: 2025
-      description: arXiv. A comprehensive survey on memory in AI. [link](https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI)
-    - title: Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session TOD
+      description: "arXiv. A comprehensive survey on memory in AI. [link](https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI)"
+    - title: "Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session TOD"
       year: 2025
-      description: ARR. Novel memory-active policy for task-oriented dialogue. [link](https://arxiv.org/html/2505.20231v1)
-    - title: TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning
+      description: "ARR. Novel memory-active policy for task-oriented dialogue. [link](https://arxiv.org/html/2505.20231v1)"
+    - title: "TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning"
       year: 2025
-      description: ARR. Proposes turn-weighted noise suppression.
-    - title: PerLTQA: A Personal Long-Term Memory Dataset
+      description: "ARR. Proposes turn-weighted noise suppression."
+    - title: "PerLTQA: A Personal Long-Term Memory Dataset"
       year: 2024
-      description: ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)
-    - title: Sticker Retrieval in Multi-Modal and Multi-Session Dialogue
+      description: "ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)"
+    - title: "Sticker Retrieval in Multi-Modal and Multi-Session Dialogue"
       year: 2025
-      description: AAAI. Multi-modal sticker-based reply system. [link](https://ojs.aaai.org/index.php/AAAI/article/view/34720)
+      description: "AAAI. Multi-modal sticker-based reply system. [link](https://ojs.aaai.org/index.php/AAAI/article/view/34720)"
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Memory in AI
+    - title: "Memory in AI"
       items:
-        - Long-term & parametric memory
-        - Retrieval-augmented generation
-        - Temporal reasoning
-        - Personalization in dialogue systems
+        - "Long-term & parametric memory"
+        - "Retrieval-augmented generation"
+        - "Temporal reasoning"
+        - "Personalization in dialogue systems"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Photography, Travel, Debate, Open-source contribution
+    - "<u>Hobbies:</u> Photography, Travel, Debate, Open-source contribution"  # ✅ 加引号
