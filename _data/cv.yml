@@ -17,13 +17,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: "PhD in Natural Language Processing"
+    - title: "PhD"
       institution: "The Chinese University of Hong Kong, Hong Kong"
-      year: "2022 – 2026 (expected)"  # ✅ 加引号
+      year: "2022 – 2026 <br> (expected)"  # ✅ 加引号
       description:
         - "Research focus: memory-augmented dialogue systems, long-term memory modeling."  # ✅ 加引号
         - "Core courses: NLP, Machine Learning Theory."  # ✅ 加引号
-    - title: "M.Sc. in Software Development"
+    - title: "M.Sc. in Computer Science and Technology"
       institution: "Southeast University, Nanjing, China"
       year: "2019 – 2022"
       description:
@@ -39,38 +39,39 @@
 - title: Experience
   type: time_table
   contents:
-    - title: "PhD Researcher"
-      institution: "CUHK & Huawei Noah’s Ark Lab"
-      year: "2022 – Present"
-      description:
-        - "Built memory-based dialogue system using RAG + FAISS."
-        - "Led multi-turn dialogue projects and demos."
     - title: "Visiting Researcher"
       institution: "University of Edinburgh"
       year: "2025 – Present"
       description:
-        - "Explored personalized agent memory using parametric/contextual memory."
+        - "Memory in LLM-Agent, Temporal Reasoning."
     - title: "Research Intern"
       institution: "SenseTime"
       year: "2024 – 2025"
       description:
-        - "Created 3T-token CoT dataset."
-        - "Applied WISE for model editing on LLaMA."
+        - "CoT Reasoning Data Generation."
+        - "Model Editing"
+    - title: "Visiting Researcher"
+      institution: "Huawei Noah’s Ark Lab"
+      year: "2022 – 2023"
+      description:
+        - "RAG"
+        - "Personal Dialogue System"
+        - "Long-term Memory"
     - title: "Research Assistant"
       institution: "City University of Hong Kong"
       year: "2021 – 2022"
       description:
-        - "Developed DNA-BERT-based gene similarity model."
+        - "Bioinformatics-Gene Analysis."
     - title: "Visiting Researcher"
       institution: "Imperial College London"
       year: "2021"
       description:
-        - "Worked on sentiment classification with BERT and CNN."
+        - "Sentiment Classification"
     - title: "Intern"
       institution: "National Instruments"
       year: "2018 – 2019"
       description:
-        - "Refactored compile module for LabVIEW."
+        - "Software Refactoring"
 
 - title: Projects
   type: time_table
@@ -78,7 +79,7 @@
     - title: "Human-like Memory Integration for Dialogue System"
       year: "2023 – 2025"
       description:
-        - "Designed LLM-based RAG memory architecture for dialogues."
+        - "Designed LLM-based RAG memory architecture for dialogue system."
     - title: "Multi-modal Summarization System"
       year: "2022 – 2024"
       description:
@@ -94,10 +95,13 @@
     - year: 2024
       items:
         - "Overseas Research Attachment Programme (ORAP), CUHK"
-    - year: 2020
+    - year: 2024
+      items:
+        - "ACL-SIGHAN Best Paper Award"
+    - year: 2022
       items:
         - "Excellent Scholarship, Southeast University"
-    - year: 2020
+    - year: 2022
       items:
         - "1st Place, Jiangsu Postgraduate Mathematical Modeling Contest"
     - year: 2018
@@ -130,11 +134,11 @@
     - title: "Memory in AI"
       items:
         - "Long-term & parametric memory"
-        - "Retrieval-augmented generation"
+        - "Reinforcement Learning for Agent"
         - "Temporal reasoning"
         - "Personalization in dialogue systems"
 
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Photography, Travel, Debate, Open-source contribution"  # ✅ 加引号
+    - "<u>Hobbies:</u> Photography, Tennis, Swimming"  # ✅ 加引号
