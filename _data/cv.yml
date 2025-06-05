@@ -115,18 +115,18 @@
     - title: "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions"
       year: 2025
       description: "arXiv. A comprehensive survey on memory in AI. [link](https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI)"
-    - title: "Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session TOD"
+    - title: "Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session Task-Oriented Dialogue"
       year: 2025
       description: "ARR. Novel memory-active policy for task-oriented dialogue. [link](https://arxiv.org/html/2505.20231v1)"
     - title: "TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning"
       year: 2025
       description: "ARR. Proposes turn-weighted noise suppression."
-    - title: "PerLTQA: A Personal Long-Term Memory Dataset"
-      year: 2024
-      description: "ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)"
-    - title: "Sticker Retrieval in Multi-Modal and Multi-Session Dialogue"
+    - title: "A New Formula for Sticker Retrieval: Reply with Stickers in Multi-Modal and Multi-Session Conversation"
       year: 2025
       description: "AAAI. Multi-modal sticker-based reply system. [link](https://ojs.aaai.org/index.php/AAAI/article/view/34720)"
+    - title: "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering"
+      year: 2024
+      description: "ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)"
 
 - title: Academic Interests
   type: nested_list
