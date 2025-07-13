@@ -113,20 +113,56 @@
   type: time_table
   contents:
     - title: "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions"
+      authors: "<u>Yiming Du</u>, Wenyu Huang, Danna Zheng, Zhaowei Wang, Sebastien Montella, Mirella Lapata, Kam-Fai Wong, Jeff Z. Pan"
       year: 2025
-      description: "arXiv. A comprehensive survey on memory in AI. [link](https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI)"
+      description: "arXiv. A comprehensive survey on memory in AI."
+      link: "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI"
     - title: "Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session Task-Oriented Dialogue"
+      authors: "<u>Yiming Du</u>, Bingbing Wang, Yang He, Bin Liang, Baojun Wang, Zhongyang Li, Lin Gui, Jeff Z. Pan, Ruifeng Xu, Kam-Fai Wong"
       year: 2025
-      description: "ARR. Novel memory-active policy for task-oriented dialogue. [link](https://arxiv.org/html/2505.20231v1)"
+      description: "ARR. Novel memory-active policy for task-oriented dialogue."
+      link: "https://arxiv.org/abs/2505.20231"
     - title: "TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning"
       year: 2025
       description: "ARR. Proposes turn-weighted noise suppression."
     - title: "A New Formula for Sticker Retrieval: Reply with Stickers in Multi-Modal and Multi-Session Conversation"
+      authors: "Bingbing Wang, <u>Yiming Du</u>,Bin Liang, Baojun Wang, Kam-Fai Wong, Zhixin Bai, Min Yang, Ruifeng Xu"
       year: 2025
-      description: "AAAI. Multi-modal sticker-based reply system. [link](https://ojs.aaai.org/index.php/AAAI/article/view/34720)"
+      description: "AAAI. Multi-modal sticker-based reply system."
+      link: "https://ojs.aaai.org/index.php/AAAI/article/view/34720"
     - title: "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering"
+      authors: "<u>Yiming Du</u>, Hongru Wang, Zhengyi Zhao, Bin Liang, Baojun Wang, Wanjun Zhong, Zezhong Wang, Kam-Fai Wong"
       year: 2024
-      description: "ACL-SIGHAN. Best Paper. [link](https://aclanthology.org/2024.sighan-1.18/)"
+      description: "ACL-SIGHAN. Best Paper."
+      link: "https://aclanthology.org/2024.sighan-1.18/"
+    - title: "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework"
+      authors: "Cai Ke, <u>Yiming Du</u>, Bin Liang, Xiang Yifan, Lin Gui, Zhongyang Li, Baojun Wang, Yue Yu, Hui Wang, Kam-Fai Wong, Ruifeng Xu"
+      year: 2025
+      description: "ARR. Fragment-then-compose framework for long-term conversation."
+    - title: "Fine-tuning after Prompting: an Explainable Way for Classification"
+      authors: "Zhengyi Zhao*, Shubo Zhang*, <u>Yiming Du</u>, Bin Liang, Baojun Wang, Zhongyang Li, Binyang Li, Kam-Fai Wong"
+      year: 2025
+      description: "ARR. Explainable classification approach."
+    - title: "A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models"
+      authors: "Boyang XUE, Hongru WANG, Rui Wang, Sheng Wang, Zezhong WANG, <u>Yiming Du</u>, Kam-Fai Wong"
+      year: 2025
+      description: "ACL 2025 Findings. Multilingual confidence estimation study."
+    - title: "M3SUM: A Novel Unsupervised Language-guided Video Summarization"
+      authors: "Hongru Wang*, Baohang Zhou*, Zhengkun Zhang, <u>Yiming Du</u>, David Ho, Kam-Fai Wong"
+      year: 2024
+      description: "ICASSP 2024. Language-guided video summarization."
+    - title: "A Survey of the Evolution of Language Model-Based Dialogue Systems"
+      authors: "Hongru Wang, Lingzhi Wang, <u>Yiming Du</u>, Liang Chen, Jingyan Zhou, Yufei Wang, Kam-Fai Wong"
+      year: 2025
+      description: "Under review. Survey on language model-based dialogue systems."
+    - title: "UniTRec: A Unified Text-to-Text Transformer and Joint Contrastive"
+      authors: "Zhiming Mao, Huimin Wang, <u>Yiming Du</u>, Kam-Fai Wong"
+      year: 2023
+      description: "ACL 2023. Unified text-to-text transformer for recommendation."
+    - title: "DPCIPI: A pre-trained deep learning model for predicting cross-immunity between drifted strains of Influenza A/H3N2"
+      authors: "<u>Yiming Du</u>, Zhuotian Li, Qian He, Thomas Wetere Tulu, Kei Hang Katie Chan, Lin Wang, Sen Pei, Zhanwei Du, Xiao-Ke Xu, Xiao Fan Liu"
+      year: 2025
+      description: "Journal of Automation and Intelligence 2025. Deep learning model for influenza cross-immunity prediction."
 
 - title: Academic Interests
   type: nested_list
@@ -138,7 +174,12 @@
         - "Temporal reasoning"
         - "Personalization in dialogue systems"
 
+- title: Services
+  type: list
+  contents:
+    - "Reviewer: ACL, EMNLP, IJCAI, KBS, etc."
+
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Photography, Tennis, Swimming"  # ✅ 加引号
+    - "<u>Hobbies:</u> Hiking, Tennis, Swimming"  # ✅ 加引号
