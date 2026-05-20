@@ -31,4 +31,4 @@ My current research focuses on **Memory**, **Dialogue System** and **Data Select
 #### Recent News
 
 - **May 2026** — Our paper *MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models* is released on <a href='https://arxiv.org/abs/2605.14906'>arXiv</a>.
-- **2026** — Our paper *MEMORY-T1: Reinforcement Learning for Temporal Reasoning in Multi-Session Agents* is accepted to **ICLR 2026** 🎉.
+- **Jan 2026** — Our paper *MEMORY-T1: Reinforcement Learning for Temporal Reasoning in Multi-Session Agents* is accepted to **ICLR 2026** 🎉.
