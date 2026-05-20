@@ -2,167 +2,216 @@
   type: map
   contents:
     - name: Full Name
-      value: Yiming DU
+      value: Yiming Du (Du Yiming)
     - name: Email
-      value: ydu@se.cuhk.edu.hk
+      value: ymdu@link.cuhk.edu.hk
+    - name: Phone
+      value: "(+86) 15051862878 / (+852) 54284864"
+    - name: Affiliation
+      value: "PhD Student, The Chinese University of Hong Kong"
+    - name: Research Area
+      value: "Natural Language Processing, Memory-Augmented LLM Agents"
     - name: Website
       value: https://elvin-yiming-du.github.io/
-    - name: Phone
-      value: (852) 54284864
-    - name: Address
-      value: "615 ERB, CUHK, Shatin, Hong Kong"  # ✅ 加引号
     - name: Languages
-      value: "Chinese, English"  # ✅ 加引号
+      value: "Chinese, English"
 
 - title: Education
   type: time_table
   contents:
-    - title: "PhD"
+    - title: "PhD in System Engineering and Engineering Management (Minor in NLP)"
       institution: "The Chinese University of Hong Kong, Hong Kong"
-      year: "2022 – 2026 <br> (expected)"  # ✅ 加引号
+      year: "Aug. 2022 – Aug. 2026"
       description:
-        - "Research focus: memory-augmented dialogue systems, long-term memory modeling."  # ✅ 加引号
-        - "Core courses: NLP, Machine Learning Theory."  # ✅ 加引号
-    - title: "M.Sc. in Computer Science and Technology"
-      institution: "Southeast University, Nanjing, China"
-      year: "2019 – 2022"
+        - "Supervisor: Prof. Kam-Fai Wong (MoE Lab)."
+        - "Research focus: memory-augmented dialogue systems, long-term memory in LLM agents."
+    - title: "M.Eng. in Computer Science & Engineering (Minor in NLP)"
+      institution: "Southeast University, Jiangsu, China"
+      year: "Aug. 2019 – June 2022"
       description:
-        - "Graduated Top 10%."
-        - "Courses: Machine Learning, Deep Learning, NLP."
-    - title: "B.Eng. in Software Engineering"
-      institution: "Southeast University, Nanjing, China"
-      year: "2015 – 2019"
+        - "Top 10%."
+        - "Supervisor: Prof. Gao Zhiqiang (Atur Lab)."
+    - title: "B.Eng. in Computer Science & Engineering (Minor in Software Engineering)"
+      institution: "Southeast University, Jiangsu, China"
+      year: "Aug. 2015 – May 2019"
       description:
-        - "Graduated Top 30%."
-        - "Courses: Data Structure, OS, Algorithm Design."
+        - "Top 30%."
+        - "Core courses: Artificial Intelligence, Machine Learning, Algorithm Analysis and Design, NLP."
 
-- title: Experience
+- title: Skills
+  type: list
+  contents:
+    - "<u>Languages:</u> Python, Java, C++, SQL, HTML/CSS"
+    - "<u>Libraries:</u> PyTorch, NumPy"
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: "Visiting Researcher"
-      institution: "University of Edinburgh"
-      year: "2025 – Present"
+    - title: "PhD Student, MoE Lab"
+      institution: "The Chinese University of Hong Kong, Hong Kong"
+      year: "Aug. 2022 – Present"
       description:
-        - "Memory in LLM-Agent, Temporal Reasoning."
+        - "Supervisor: Prof. Kam-Fai Wong."
+        - "Memory-Augmented Agents: novel long-term memory agent with Retrieval-Augmented Generation (RAG) and Reinforcement Learning under multi-session dialogues."
+    - title: "Research Intern, Noah's Ark Lab"
+      institution: "Huawei, Hong Kong"
+      year: "July 2025 – Present"
+      description:
+        - "Mentor: Baojun Wang."
+        - "Temporal Reasoning: developed an RL framework to improve temporal reasoning for LLM agents."
+    - title: "Visiting Researcher, Informatics Forum"
+      institution: "The University of Edinburgh, UK"
+      year: "Jan. 2025 – June 2025"
+      description:
+        - "Supervisor: Prof. Jeff Z. Pan."
+        - "Personal Agent: explore parametric memory and contextual memory in personal assistants."
     - title: "Research Intern"
-      institution: "SenseTime"
-      year: "2024 – 2025"
+      institution: "SenseTime, Shenzhen, China"
+      year: "Aug. 2024 – Jan. 2025"
       description:
-        - "CoT Reasoning Data Generation."
-        - "Model Editing"
-    - title: "Visiting Researcher"
-      institution: "Huawei Noah’s Ark Lab"
-      year: "2022 – 2023"
+        - "Mentor: Fei Tan."
+        - "Data Selection: explore high-quality multi-turn dialogues for SFT and RL training."
+        - "Multi-turn Dialogue System: developed a noise-robust SFT pipeline for Edge LLMs."
+    - title: "Visiting Researcher, Noah's Ark Lab"
+      institution: "Huawei, Hong Kong"
+      year: "Aug. 2023 – Aug. 2024"
       description:
-        - "RAG"
-        - "Personal Dialogue System"
-        - "Long-term Memory"
-    - title: "Research Assistant"
-      institution: "City University of Hong Kong"
-      year: "2021 – 2022"
+        - "Mentor: Baojun Wang."
+        - "Memory in LLM Dialogue System: led the creation of a memory-based LLM dialogue system with RAG framework and FAISS vector databases."
+    - title: "Research Assistant, Web Mining Lab"
+      institution: "City University of Hong Kong, Hong Kong"
+      year: "Aug. 2021 – Feb. 2022"
       description:
-        - "Bioinformatics-Gene Analysis."
-    - title: "Visiting Researcher"
-      institution: "Imperial College London"
-      year: "2021"
+        - "Supervisor: Prof. Liu Xiaofan."
+        - "Sentence Classification: developed the DPCIPI model based on DNABERT for viral gene similarity evaluation."
+    - title: "Research Experience"
+      institution: "Imperial College London, UK"
+      year: "June 2021 – July 2021"
       description:
-        - "Sentiment Classification"
-    - title: "Intern"
-      institution: "National Instruments"
-      year: "2018 – 2019"
+        - "Supervisor: Prof. Lucia Specia."
+        - "Sentiment Classification: news headline sentiment analysis using BERT."
+    - title: "Master Student, Atur Lab"
+      institution: "Southeast University, Nanjing, China"
+      year: "Mar. 2019 – Aug. 2022"
       description:
-        - "Software Refactoring"
+        - "Supervisor: Prof. Gao Zhiqiang."
+        - "Text Generation: research on middle-representation language Pseudo-SQL to generate comparative questions."
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: "MEMORY-T1: Reinforcement Learning for Temporal Reasoning in Multi-Session Agents"
+      authors: "<u>Yiming Du</u>, Baojun Wang, Yifan Xiang, Zhaowei Wang, Wenyu Huang, Boyang Xue, Bin Liang, Xingshan Zeng, Haoli Bai, Fei Mi, Lifeng Shang, Jeff Z. Pan, Yuxin Jiang, Kam-Fai Wong"
+      year: 2026
+      description: "ICLR 2026."
+    - title: "MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents"
+      authors: "<u>Yiming Du*</u>, Bingbing Wang*, Yang He, Bin Liang, Baojun Wang, Zhongyang Li, Lin Gui, Jeff Z. Pan, Ruifeng Xu, Kam-Fai Wong"
+      year: 2026
+      description: "AAAI 2026 (Accepted, Oral). Co-first author."
+    - title: "ReSURE: Regularizing Supervision Unreliability for Multi-turn Dialogue Fine-tuning"
+      authors: "<u>Yiming Du</u>, Yifan Xiang, Bin Liang, Dahua Lin, Kam-Fai Wong, Fei Tan"
+      year: 2025
+      description: "EMNLP 2025 (Accepted)."
+    - title: "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework"
+      authors: "Cai Ke, <u>Yiming Du</u>, Bin Liang, Xiang Yifan, Lin Gui, Zhongyang Li, Baojun Wang, Yue Yu, Hui Wang, Kam-Fai Wong, Ruifeng Xu"
+      year: 2025
+      description: "EMNLP 2025 (Accepted, Oral)."
+    - title: "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions"
+      authors: "<u>Yiming Du*</u>, Wenyu Huang*, Danna Zheng*, Zhaowei Wang, Sebastien Montella, Mirella Lapata, Kam-Fai Wong, Jeff Z. Pan"
+      year: 2025
+      description: "arXiv (under review). A comprehensive survey on memory in AI."
+      link: "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI"
+    - title: "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models"
+      authors: "Xiyu Ren, Zhaowei Wang, <u>Yiming Du</u>, Zhongwei Xie, Chi Liu, Xinlin Yang, Haoyue Feng, Wenjun Pan, Tianshi Zheng, Baixuan Xu, Zhengnan Li, Yangqiu Song, Ginny Wong, Simon See"
+      year: 2025
+      description: "arXiv:2605.14906. Benchmark for multimodal long-term memory in LVLMs."
+      link: "https://huggingface.co/papers/2605.14906"
+    - title: "A New Formula for Sticker Retrieval: Reply with Stickers in Multi-Modal and Multi-Session Conversation"
+      authors: "Bingbing Wang*, <u>Yiming Du*</u>, Bin Liang, Zhixin Bai, Baojun Wang, Ruifeng Xu, Kam-Fai Wong"
+      year: 2025
+      description: "AAAI 2025 (co-first author)."
+      link: "https://ojs.aaai.org/index.php/AAAI/article/view/34720"
+    - title: "Fine-tuning after Prompting: an Explainable Way for Classification"
+      authors: "Zhengyi Zhao*, Shubo Zhang*, <u>Yiming Du</u>, Bin Liang, Baojun Wang, Zhongyang Li, Binyang Li, Kam-Fai Wong"
+      year: 2025
+      description: "ARR Oct 2025 (under review)."
+    - title: "A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models"
+      authors: "Boyang Xue, Hongru Wang, Rui Wang, Sheng Wang, Zezhong Wang, <u>Yiming Du</u>, Kam-Fai Wong"
+      year: 2025
+      description: "ACL 2025 Findings."
+    - title: "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Fusion in Question Answering"
+      authors: "<u>Yiming Du</u>, Hongru Wang, Zhengyi Zhao, Bin Liang, Baojun Wang, Wanjun Zhong, Zezhong Wang, Kam-Fai Wong"
+      year: 2024
+      description: "ACL-SIGHAN 2024 (Best Paper)."
+      link: "https://aclanthology.org/2024.sighan-1.18/"
+    - title: "M3SUM: A Novel Unsupervised Language-Guided Video Summarization"
+      authors: "Hongru Wang*, Baohang Zhou*, Zhengkun Zhang, <u>Yiming Du</u>, David Ho, Kam-Fai Wong"
+      year: 2024
+      description: "ICASSP 2024."
+    - title: "A Survey of the Evolution of Language Model-Based Dialogue Systems"
+      authors: "Hongru Wang, Lingzhi Wang, <u>Yiming Du</u>, Liang Chen, Jingyan Zhou, Yufei Wang, Kam-Fai Wong"
+      year: 2023
+      description: "Under review."
+    - title: "UniTRec: A Unified Text-to-Text Transformer and Joint Contrastive Learning Framework for Text-based Recommendation"
+      authors: "Zhiming Mao, Huimin Wang, <u>Yiming Du</u>, Kam-Fai Wong"
+      year: 2023
+      description: "ACL 2023."
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: "A dialogue memory storage, extraction and electronical device"
+      institution: "Huawei, China"
+      year: 2024
+      description:
+        - "Inventors: Baojun Wang, <u>Yiming Du</u>, Kam-Fai Wong."
 
 - title: Projects
   type: time_table
   contents:
     - title: "Human-like Memory Integration for Dialogue System"
-      year: "2023 – 2025"
+      year: "Jan. 2023 – Jan. 2025"
       description:
-        - "Designed LLM-based RAG memory architecture for dialogue system."
-    - title: "Multi-modal Summarization System"
-      year: "2022 – 2024"
+        - "Project Lead for a research group focused on memory-augmented dialogue systems, coordinating research efforts that resulted in multiple publications and a functional system demo."
+        - "Tech: Python."
+    - title: "Multi-model Summarization System"
+      year: "Oct. 2022 – Oct. 2024"
       description:
-        - "Developed audio-image-text fusion summarizer with LLMs."
-    - title: "Dialogue Memory Patent (Huawei)"
-      year: "2023 – 2024"
-      description:
-        - "Co-inventor of memory storage & retrieval system."
+        - "Led the development of an advanced multi-modal summarization system, enhancing the integration of audio, image, and text via LLMs."
+        - "Tech: Java, Python."
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
       items:
-        - "Overseas Research Attachment Programme (ORAP), CUHK"
-    - year: 2024
+        - "Overseas Research Attachment Programme (ORAP) Award, CUHK"
+    - year: "2018 – 2020"
       items:
-        - "ACL-SIGHAN Best Paper Award"
-    - year: 2022
+        - "Excellent Scholarships: Shenzhen Stock Exchange, Southeast University, Huawei, Keyuan Automation"
+    - year: 2020
       items:
-        - "Excellent Scholarship, Southeast University"
-    - year: 2022
-      items:
-        - "1st Place, Jiangsu Postgraduate Mathematical Modeling Contest"
+        - "1st Place, Jiangsu Postgraduate Mathematical Modeling Scientific Research Innovation Practice Competition"
     - year: 2018
       items:
         - "1st Place, Chinese Undergraduate Computer Design Contest"
         - "Meritorious Winner, Mathematical Contest in Modeling (MCM)"
 
-- title: Publications
+- title: Leadership
   type: time_table
   contents:
-    - title: "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions"
-      authors: "<u>Yiming Du</u>, Wenyu Huang, Danna Zheng, Zhaowei Wang, Sebastien Montella, Mirella Lapata, Kam-Fai Wong, Jeff Z. Pan"
-      year: 2025
-      description: "arXiv. A comprehensive survey on memory in AI."
-      link: "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI"
-    - title: "Bridging the Long-Term Gap: A Memory-Active Policy for Multi-Session Task-Oriented Dialogue"
-      authors: "<u>Yiming Du</u>, Bingbing Wang, Yang He, Bin Liang, Baojun Wang, Zhongyang Li, Lin Gui, Jeff Z. Pan, Ruifeng Xu, Kam-Fai Wong"
-      year: 2025
-      description: "ARR. Novel memory-active policy for task-oriented dialogue."
-      link: "https://arxiv.org/abs/2505.20231"
-    - title: "TWiNS: An Implicit Noise Suppression Approach for Multi-Turn Dialogue Fine-Tuning"
-      year: 2025
-      description: "ARR. Proposes turn-weighted noise suppression."
-    - title: "A New Formula for Sticker Retrieval: Reply with Stickers in Multi-Modal and Multi-Session Conversation"
-      authors: "Bingbing Wang, <u>Yiming Du</u>,Bin Liang, Baojun Wang, Kam-Fai Wong, Zhixin Bai, Min Yang, Ruifeng Xu"
-      year: 2025
-      description: "AAAI. Multi-modal sticker-based reply system."
-      link: "https://ojs.aaai.org/index.php/AAAI/article/view/34720"
-    - title: "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering"
-      authors: "<u>Yiming Du</u>, Hongru Wang, Zhengyi Zhao, Bin Liang, Baojun Wang, Wanjun Zhong, Zezhong Wang, Kam-Fai Wong"
-      year: 2024
-      description: "ACL-SIGHAN. Best Paper."
-      link: "https://aclanthology.org/2024.sighan-1.18/"
-    - title: "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework"
-      authors: "Cai Ke, <u>Yiming Du</u>, Bin Liang, Xiang Yifan, Lin Gui, Zhongyang Li, Baojun Wang, Yue Yu, Hui Wang, Kam-Fai Wong, Ruifeng Xu"
-      year: 2025
-      description: "ARR. Fragment-then-compose framework for long-term conversation."
-    - title: "Fine-tuning after Prompting: an Explainable Way for Classification"
-      authors: "Zhengyi Zhao*, Shubo Zhang*, <u>Yiming Du</u>, Bin Liang, Baojun Wang, Zhongyang Li, Binyang Li, Kam-Fai Wong"
-      year: 2025
-      description: "ARR. Explainable classification approach."
-    - title: "A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models"
-      authors: "Boyang XUE, Hongru WANG, Rui Wang, Sheng Wang, Zezhong WANG, <u>Yiming Du</u>, Kam-Fai Wong"
-      year: 2025
-      description: "ACL 2025 Findings. Multilingual confidence estimation study."
-    - title: "M3SUM: A Novel Unsupervised Language-guided Video Summarization"
-      authors: "Hongru Wang*, Baohang Zhou*, Zhengkun Zhang, <u>Yiming Du</u>, David Ho, Kam-Fai Wong"
-      year: 2024
-      description: "ICASSP 2024. Language-guided video summarization."
-    - title: "A Survey of the Evolution of Language Model-Based Dialogue Systems"
-      authors: "Hongru Wang, Lingzhi Wang, <u>Yiming Du</u>, Liang Chen, Jingyan Zhou, Yufei Wang, Kam-Fai Wong"
-      year: 2025
-      description: "Under review. Survey on language model-based dialogue systems."
-    - title: "UniTRec: A Unified Text-to-Text Transformer and Joint Contrastive"
-      authors: "Zhiming Mao, Huimin Wang, <u>Yiming Du</u>, Kam-Fai Wong"
-      year: 2023
-      description: "ACL 2023. Unified text-to-text transformer for recommendation."
-    - title: "DPCIPI: A pre-trained deep learning model for predicting cross-immunity between drifted strains of Influenza A/H3N2"
-      authors: "<u>Yiming Du</u>, Zhuotian Li, Qian He, Thomas Wetere Tulu, Kei Hang Katie Chan, Lin Wang, Sen Pei, Zhanwei Du, Xiao-Ke Xu, Xiao Fan Liu"
-      year: 2025
-      description: "Journal of Automation and Intelligence 2025. Deep learning model for influenza cross-immunity prediction."
+    - title: "Project Leader, MoE Lab"
+      institution: "The Chinese University of Hong Kong"
+      description:
+        - "Led development of a memory-augmented dialogue system, delivering both research outcomes and a dialogue system demo."
+    - title: "Group Leader, Atur Lab"
+      institution: "Southeast University"
+      description:
+        - "Organized a series of reports on Representation Learning with 5 group members; responsible for designing the report scheme and quality control."
+    - title: "Forum Organizer"
+      institution: "School of Computer Science and Engineering, Southeast University"
+      description:
+        - "Organized the 2021 academic forum at the School of Computer Science and Engineering, covering Artificial Intelligence, Image Processing, Software Engineering, and Computer Network."
 
 - title: Academic Interests
   type: nested_list
@@ -170,7 +219,7 @@
     - title: "Memory in AI"
       items:
         - "Long-term & parametric memory"
-        - "Reinforcement Learning for Agent"
+        - "Reinforcement Learning for LLM Agents"
         - "Temporal reasoning"
         - "Personalization in dialogue systems"
 
@@ -182,4 +231,4 @@
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Hiking, Tennis, Swimming"  # ✅ 加引号
+    - "<u>Hobbies:</u> Hiking, Tennis, Swimming"

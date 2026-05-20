@@ -1,25 +1,338 @@
 {
   "basics": {
-    "name": "Yiming DU",
-    "label": "PhD Candidate",
+    "name": "Yiming Du",
+    "label": "PhD Student | Natural Language Processing",
     "image": "",
-    "email": "ydu@se.cuhk.edu.hk",
-    "phone": "(852) 54284864",
+    "email": "ymdu@link.cuhk.edu.hk",
+    "phone": "(+86) 15051862878 / (+852) 54284864",
     "url": "https://elvin-yiming-du.github.io/",
-    "summary": "A PhD candidate interest in memory research.",
+    "summary": "PhD student at CUHK working on memory-augmented LLM agents, long-term memory, and reasoning in multi-session dialogues.",
     "location": {
-      "address": "615 ERB, The Chinese University of Hong Kong",
-      "postalCode": "099777",
+      "address": "MoE Lab, The Chinese University of Hong Kong",
       "city": "Hong Kong",
       "countryCode": "HK",
       "region": "Shatin"
     },
     "profiles": [
       {
-        "network": "Google",
-        "username": "duyiming",
+        "network": "Google Scholar",
+        "username": "Yiming Du",
         "url": "https://scholar.google.com/citations?user=AuMM7mAAAAAJ&hl=zh-CN"
       }
     ]
   },
+  "education": [
+    {
+      "institution": "The Chinese University of Hong Kong",
+      "location": "Hong Kong",
+      "url": "https://www.cuhk.edu.hk/",
+      "area": "System Engineering and Engineering Management (Minor in NLP)",
+      "studyType": "PhD",
+      "startDate": "2022-08-01",
+      "endDate": "2026-08-01",
+      "score": "",
+      "courses": [
+        "Supervisor: Prof. Kam-Fai Wong (MoE Lab)",
+        "Research focus: memory-augmented dialogue systems, long-term memory in LLM agents"
+      ]
+    },
+    {
+      "institution": "Southeast University",
+      "location": "Jiangsu, China",
+      "url": "https://www.seu.edu.cn/",
+      "area": "Computer Science & Engineering (Minor in NLP)",
+      "studyType": "M.Eng.",
+      "startDate": "2019-08-01",
+      "endDate": "2022-06-01",
+      "score": "Top 10%",
+      "courses": [
+        "Supervisor: Prof. Gao Zhiqiang (Atur Lab)"
+      ]
+    },
+    {
+      "institution": "Southeast University",
+      "location": "Jiangsu, China",
+      "url": "https://www.seu.edu.cn/",
+      "area": "Computer Science & Engineering (Minor in Software Engineering)",
+      "studyType": "B.Eng.",
+      "startDate": "2015-08-01",
+      "endDate": "2019-05-01",
+      "score": "Top 30%",
+      "courses": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Algorithm Analysis and Design",
+        "Natural Language Processing"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "The Chinese University of Hong Kong, MoE Lab",
+      "position": "PhD Student",
+      "location": "Hong Kong",
+      "startDate": "2022-08-01",
+      "endDate": "",
+      "summary": "Supervisor: Prof. Kam-Fai Wong.",
+      "highlights": [
+        "Memory-Augmented Agents: novel long-term memory agent with Retrieval-Augmented Generation (RAG) and Reinforcement Learning under multi-session dialogues."
+      ]
+    },
+    {
+      "name": "Huawei, Noah's Ark Lab",
+      "position": "Research Intern",
+      "location": "Hong Kong",
+      "startDate": "2025-07-01",
+      "endDate": "",
+      "summary": "Mentor: Baojun Wang.",
+      "highlights": [
+        "Temporal Reasoning: developed an RL framework to improve temporal reasoning for LLM agents."
+      ]
+    },
+    {
+      "name": "The University of Edinburgh, Informatics Forum",
+      "position": "Visiting Researcher",
+      "location": "Edinburgh, UK",
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-01",
+      "summary": "Supervisor: Prof. Jeff Z. Pan.",
+      "highlights": [
+        "Personal Agent: explore parametric memory and contextual memory in personal assistants."
+      ]
+    },
+    {
+      "name": "SenseTime",
+      "position": "Research Intern",
+      "location": "Shenzhen, China",
+      "startDate": "2024-08-01",
+      "endDate": "2025-01-01",
+      "summary": "Mentor: Fei Tan.",
+      "highlights": [
+        "Data Selection: explore high-quality multi-turn dialogues for SFT and RL training.",
+        "Multi-turn Dialogue System: developed a noise-robust SFT pipeline for Edge LLMs."
+      ]
+    },
+    {
+      "name": "Huawei, Noah's Ark Lab",
+      "position": "Visiting Researcher",
+      "location": "Hong Kong",
+      "startDate": "2023-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Mentor: Baojun Wang.",
+      "highlights": [
+        "Memory in LLM Dialogue System: led the creation of a memory-based LLM dialogue system with RAG framework and FAISS vector databases."
+      ]
+    },
+    {
+      "name": "City University of Hong Kong, Web Mining Lab",
+      "position": "Research Assistant",
+      "location": "Hong Kong",
+      "startDate": "2021-08-01",
+      "endDate": "2022-02-01",
+      "summary": "Supervisor: Prof. Liu Xiaofan.",
+      "highlights": [
+        "Sentence Classification: developed the DPCIPI model based on DNABERT for viral gene similarity evaluation."
+      ]
+    },
+    {
+      "name": "Imperial College London",
+      "position": "Research Experience",
+      "location": "London, UK",
+      "startDate": "2021-06-01",
+      "endDate": "2021-07-01",
+      "summary": "Supervisor: Prof. Lucia Specia.",
+      "highlights": [
+        "Sentiment Classification: news headline sentiment analysis using BERT."
+      ]
+    },
+    {
+      "name": "Southeast University, Atur Lab",
+      "position": "Master Student",
+      "location": "Nanjing, China",
+      "startDate": "2019-03-01",
+      "endDate": "2022-08-01",
+      "summary": "Supervisor: Prof. Gao Zhiqiang.",
+      "highlights": [
+        "Text Generation: research on middle-representation language Pseudo-SQL to generate comparative questions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "MEMORY-T1: Reinforcement Learning for Temporal Reasoning in Multi-Session Agents",
+      "publisher": "ICLR 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Du, Y. (first author), Wang, B., Xiang, Y., Wang, Z., Huang, W., Xue, B., Liang, B., Zeng, X., Bai, H., Mi, F., Shang, L., Pan, J.Z., Jiang, Y., Wong, K.-F."
+    },
+    {
+      "name": "MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents",
+      "publisher": "AAAI 2026 (Oral, Co-first author)",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Du, Y.* (co-first), Wang, B.*, He, Y., Liang, B., Wang, B., Li, Z., Gui, L., Pan, J.Z., Xu, R., Wong, K.-F."
+    },
+    {
+      "name": "ReSURE: Regularizing Supervision Unreliability for Multi-turn Dialogue Fine-tuning",
+      "publisher": "EMNLP 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Du, Y. (first author), Xiang, Y., Liang, B., Lin, D., Wong, K.-F., Tan, F."
+    },
+    {
+      "name": "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework",
+      "publisher": "EMNLP 2025 (Oral)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Ke, C., Du, Y., Liang, B., Yifan, X., Gui, L., Li, Z., Wang, B., Yu, Y., Wang, H., Wong, K.-F., Xu, R."
+    },
+    {
+      "name": "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions",
+      "publisher": "arXiv (under review)",
+      "releaseDate": "2025",
+      "url": "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+      "summary": "Du, Y.* (co-first), Huang, W.*, Zheng, D.*, Wang, Z., Montella, S., Lapata, M., Wong, K.-F., Pan, J.Z. — comprehensive survey on memory in AI."
+    },
+    {
+      "name": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+      "publisher": "arXiv:2605.14906",
+      "releaseDate": "2026-05",
+      "url": "https://arxiv.org/abs/2605.14906",
+      "summary": "Ren, X., Wang, Z., Du, Y., Xie, Z., Liu, C., Yang, X., Feng, H., Pan, W., Zheng, T., Xu, B., Li, Z., Song, Y., Wong, G., See, S."
+    },
+    {
+      "name": "A New Formula for Sticker Retrieval: Reply with Stickers in Multi-Modal and Multi-Session Conversation",
+      "publisher": "AAAI 2025 (Co-first author)",
+      "releaseDate": "2025",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34720",
+      "summary": "Wang, B.*, Du, Y.*, Liang, B., Bai, Z., Wang, B., Xu, R., Wong, K.-F."
+    },
+    {
+      "name": "Fine-tuning after Prompting: an Explainable Way for Classification",
+      "publisher": "ARR Oct 2025 (under review)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Zhao, Z.*, Zhang, S.*, Du, Y., Liang, B., Wang, B., Li, Z., Li, B., Wong, K.-F."
+    },
+    {
+      "name": "A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models",
+      "publisher": "ACL 2025 Findings",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Xue, B., Wang, H., Wang, R., Wang, S., Wang, Z., Du, Y., Wong, K.-F."
+    },
+    {
+      "name": "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Fusion in Question Answering",
+      "publisher": "ACL-SIGHAN 2024 (Best Paper)",
+      "releaseDate": "2024",
+      "url": "https://aclanthology.org/2024.sighan-1.18/",
+      "summary": "Du, Y. (first author), Wang, H., Zhao, Z., Liang, B., Wang, B., Zhong, W., Wang, Z., Wong, K.-F."
+    },
+    {
+      "name": "M3SUM: A Novel Unsupervised Language-Guided Video Summarization",
+      "publisher": "ICASSP 2024",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": "Wang, H.*, Zhou, B.*, Zhang, Z., Du, Y., Ho, D., Wong, K.-F."
+    },
+    {
+      "name": "A Survey of the Evolution of Language Model-Based Dialogue Systems",
+      "publisher": "Under review",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": "Wang, H., Wang, L., Du, Y., Chen, L., Zhou, J., Wang, Y., Wong, K.-F."
+    },
+    {
+      "name": "UniTRec: A Unified Text-to-Text Transformer and Joint Contrastive Learning Framework for Text-based Recommendation",
+      "publisher": "ACL 2023",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": "Mao, Z., Wang, H., Du, Y., Wong, K.-F."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Overseas Research Attachment Programme (ORAP) Award",
+      "date": "2024",
+      "awarder": "CUHK",
+      "summary": ""
+    },
+    {
+      "title": "1st Place, Jiangsu Postgraduate Mathematical Modeling Scientific Research Innovation Practice Competition",
+      "date": "2020",
+      "awarder": "Jiangsu Province",
+      "summary": ""
+    },
+    {
+      "title": "Excellent Scholarships",
+      "date": "2018 – 2020",
+      "awarder": "Shenzhen Stock Exchange, Southeast University, Huawei, Keyuan Automation",
+      "summary": ""
+    },
+    {
+      "title": "1st Place, Chinese Undergraduate Computer Design Contest",
+      "date": "2018",
+      "awarder": "China",
+      "summary": ""
+    },
+    {
+      "title": "Meritorious Winner, Mathematical Contest in Modeling (MCM)",
+      "date": "2018",
+      "awarder": "COMAP",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["Python", "Java", "C++", "SQL", "HTML/CSS"]
+    },
+    {
+      "name": "Libraries",
+      "level": "",
+      "keywords": ["PyTorch", "NumPy"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Memory in AI",
+      "keywords": [
+        "Long-term & parametric memory",
+        "Reinforcement Learning for LLM Agents",
+        "Temporal reasoning",
+        "Personalization in dialogue systems"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Human-like Memory Integration for Dialogue System",
+      "startDate": "2023-01-01",
+      "endDate": "2025-01-01",
+      "description": "Project Lead for a research group focused on memory-augmented dialogue systems, coordinating research efforts that resulted in multiple publications and a functional system demo.",
+      "highlights": [
+        "Tech: Python"
+      ]
+    },
+    {
+      "name": "Multi-model Summarization System",
+      "startDate": "2022-10-01",
+      "endDate": "2024-10-01",
+      "description": "Led the development of an advanced multi-modal summarization system, enhancing the integration of audio, image, and text via LLMs.",
+      "highlights": [
+        "Tech: Java, Python"
+      ]
+    }
+  ]
 }
