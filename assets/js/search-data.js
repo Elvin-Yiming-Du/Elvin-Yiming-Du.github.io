@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "Research experience, internships, and education.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -50,13 +57,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("", "_blank");
-        },
-      },{
-        id: 'social-whatsapp',
-        title: 'whatsapp',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wa.me/54284864", "_blank");
         },
       },{
       id: 'light-theme',
